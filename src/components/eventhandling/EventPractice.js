@@ -10,7 +10,7 @@ const EventPractice = () => {
     function handleClick(){
         alert(username +  ": " +  message);
         setMessage('');// 제출버튼 누르면 폼 비우기
-        setUsername('');
+        setUsername(''); //
     }
 
     const handChangeMessage =  (e) => {
