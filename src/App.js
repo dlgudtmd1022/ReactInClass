@@ -4,6 +4,10 @@ import YourComponent from "./components/study/YourComponent";
 import Say from "./components/study/Say";
 import ArrayChange from "./components/study/ArrayChange";
 import EventPractice from "./components/eventhandling/EventPractice";
+import IterationSample from "./components/iteration/IterationSample";
+import IterationSample2 from "./components/iteration/IterationSample2";
+import Counter from "./components/Hooks/Counter";
+
 
 function App() {
   return (
@@ -14,7 +18,15 @@ function App() {
         {/*<YourComponent country="ROK"/>*/}
         {/*<Say msg="안녕하세요"/>*/}
         {/*<ArrayChange/>*/}
-        <EventPractice/>
+          {/*4강까지 완료*/}
+        {/*<EventPractice/>*/}
+
+          {/*6강까지 완료*/}
+        {/*<IterationSample/>*/}
+        {/*<IterationSample2/>*/}
+
+          {/*8강*/}
+          <Counter/>
       </>
   );
 }

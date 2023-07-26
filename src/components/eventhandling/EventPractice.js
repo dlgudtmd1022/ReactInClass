@@ -8,9 +8,9 @@ const EventPractice = () => {
     const [username, setUsername] = useState('');
 
     function handleClick(){
-        alert(username +  ": " +  message);
+        alert(username +  ": " +  message); // `${username} : ${message}'
         setMessage('');// 제출버튼 누르면 폼 비우기
-        setUsername(''); //
+        setUsername(''); //`
     }
 
     const handChangeMessage =  (e) => {
@@ -22,8 +22,6 @@ const EventPractice = () => {
         // message 상태에 change가 발생할때마다 갱신된 값이 들어감
         setUsername(e.target.value);
     }
-
-
 
     // 135페이지 이벤트 처리를 input태그 두개 (username, message)로 사용해
     // 양쪽을 입력하고 확인 버튼을 누르면
@@ -47,7 +45,6 @@ const EventPractice = () => {
                 value={message} // message 상태에 든 값으로 폼 내부 자료가 유지됨
                 onChange={handChangeMessage}
             />
-
 
             <button onClick={handleClick}>확인</button>
         </>
